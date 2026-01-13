@@ -49,6 +49,23 @@ Para comprobar si realmente pusimos bien el repo de github
 git remote -v
 ```
 
+para agregar cambios a git:
+
+```
+git add .
+```
+
+para confirmar el cambio:
+
+```
+git commit -m "mensajito"
+```
+
+para enviar al github:
+```
+git push origin main
+```
+
 ### Podes instalar en vscode plugins
 
 https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
