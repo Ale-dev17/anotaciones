@@ -35,6 +35,20 @@ git init
 Initialized empty Git repository in
 ```
 
+Nos vamos a la pagina de github, en nuestro repositorio que estamos creando, anga
+Pegamos esto en la terminal:
+
+```
+git remote add origin https://github.com/Ale-dev17/anotaciones.git
+
+```
+
+Para comprobar si realmente pusimos bien el repo de github
+
+```
+git remote -v
+```
+
 ### Podes instalar en vscode plugins
 
 https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
